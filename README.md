@@ -2,7 +2,7 @@
 
 a jQuery plugin, made for validating input in web browser without the need to have form element. 
 i made it as i didnt find any form validator packages that can help validate inputs without form element encapsulating them. 
-i also f
+
 
 # why i create the plugin?
 - didnt found a way to validate only some input in a form element. 
