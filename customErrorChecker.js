@@ -46,16 +46,16 @@
             var jqObjFiltered = $(objFiltered[i]);
             var jqObjFilteredName = jqObjFiltered.attr('name');
 
-            console.log({
-                jqObjFiltered,
-                jqObjFilteredName
-            });
+            // console.log({
+            //     jqObjFiltered,
+            //     jqObjFilteredName
+            // });
 
             // loop keys in the rules[x][ruleKey]
             var inputRule = settings.rules[jqObjFilteredName];
             for (var ruleKey in inputRule) {
                 var ruleVal = inputRule[ruleKey];
-                console.log(`- ${ruleKey}`);
+                // console.log(`- ${ruleKey}`);
                 // check for rules methods 
                 var isPassed = methods[ruleKey].apply(jqObjFiltered, [ruleVal]);
 
@@ -84,7 +84,6 @@
             }
         }
 
-        console.log('new custom err udated');
         return errLength;
         // return this; 
     }
@@ -109,10 +108,10 @@
         const regex = new RegExp(val);
         const isMatched = regex.test(inpVal);
 
-        console.log({
-            inpVal,
-            isMatched
-        });
+        // console.log({
+        //     inpVal,
+        //     isMatched
+        // });
 
         return isMatched;
     }
@@ -131,7 +130,7 @@
     // - this : input element
     function isPdfExtensionPassed() {
         var txt = $(this).val().trim();
-        console.log('txt', txt);
+        
         var allowedExtensions = /(\.pdf)$/i;
         return txt == '' || (allowedExtensions.exec(txt) && allowedExtensions.exec(txt)[0]) ? true : false;
     }
