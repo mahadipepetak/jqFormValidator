@@ -9,6 +9,9 @@ i made it as i didnt find any form validator packages that can help validate inp
 - dont want to trigger form-submit just to get the form validating function. 
 - ive been wanting to create at least one plugin. so this is my first one, hahaha:P
 
+# How to use?
+- try clone the repo & open the index file using web browser.
+
 # warning (i guess?)
 - there are only 4 validations available (required, min, regex & filePdf) as these are the only things i need to use in my current project.
 - i tried to make it as general as i can, but i'm well aware that it still has a lot more to do to make it work as a good plugin.
