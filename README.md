@@ -21,5 +21,5 @@ i made it as i didnt find any form validator packages that can help validate inp
 - looking forward to your guidance (me bowing sincerely..) 
 
 # Shout out
-- thanks to the jquery team for writing the nice document for creating a plugin.
+- thanks to the jquery team for writing a nice document for creating plugin.
 link: https://learn.jquery.com/plugins/basic-plugin-creation/
